@@ -6,80 +6,175 @@
     <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
     <script src="js/site.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="left-col">
-            <header>
-                <div class="logo">
-                    <img src="images/logo.png">
+    <div class="left-col">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <nav>
+                <ul>
+                    <li class="mail"><a href="javascript:void(0);" class="active">Mail</a></li>
+                    <li class="stiri"><a href="javascript:void(0);">Stiri</a></li>
+                    <li class="sport"><a href="javascript:void(0);">Sport</a></li>
+                    <li class="finante"><a href="javascript:void(0);">Finante</a></li>
+                    <li class="lifestyle"><a href="javascript:void(0);">Lifestyle</a></li>
+                    <li class="tech"><a href="javascript:void(0);">Tech</a></li>
+                    <li class="omg"><a href="javascript:void(0);">omg!</a></li>
+                    <li class="games"><a href="javascript:void(0);">Games</a></li>
+                    <li class="groups"><a href="javascript:void(0);">Groups</a></li>
+                    <li class="mess"><a href="javascript:void(0);">Messenger</a></li>
+                    <li class="weather"><a href="javascript:void(0);">Weather</a></li>
+                    <li class="greatusa"><a href="javascript:void(0);">The great USA</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="center-col">
+        <div class="search-box">
+            <input type="text" name="search" class="search" placeholder="Caută după numele magazinului sau dupa numele produsului...">
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-1.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                12%
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <nav>
-                    <ul>
-                        <li class="mail"><a hef="javascript:void(0);" class="active">Mail</a></li>
-                        <li class="stiri"><a hef="javascript:void(0);">Stiri</a></li>
-                        <li class="sport"><a hef="javascript:void(0);">Sport</a></li>
-                        <li class="finante"><a hef="javascript:void(0);">Finante</a></li>
-                        <li class="lifestyle"><a hef="javascript:void(0);">Lifestyle</a></li>
-                        <li class="tech"><a hef="javascript:void(0);">Tech</a></li>
-                        <li class="omg"><a hef="javascript:void(0);">omg!</a></li>
-                        <li class="games"><a hef="javascript:void(0);">Games</a></li>
-                        <li class="groups"><a hef="javascript:void(0);">Groups</a></li>
-                        <li class="mess"><a hef="javascript:void(0);">Messenger</a></li>
-                        <li class="weather"><a hef="javascript:void(0);">Weather</a></li>
-                        <li class="greatusa"><a hef="javascript:void(0);">The great USA</a></li> <li class="mail"><a hef="javascript:void(0);" class="active">Mail</a></li>
-                        <li class="stiri"><a hef="javascript:void(0);">Stiri</a></li>
-                        <li class="sport"><a hef="javascript:void(0);">Sport</a></li>
-                        <li class="finante"><a hef="javascript:void(0);">Finante</a></li>
-                        <li class="lifestyle"><a hef="javascript:void(0);">Lifestyle</a></li>
-                        <li class="tech"><a hef="javascript:void(0);">Tech</a></li>
-                        <li class="omg"><a hef="javascript:void(0);">omg!</a></li>
-                        <li class="games"><a hef="javascript:void(0);">Games</a></li>
-                        <li class="groups"><a hef="javascript:void(0);">Groups</a></li>
-                        <li class="mess"><a hef="javascript:void(0);">Messenger</a></li>
-                        <li class="weather"><a hef="javascript:void(0);">Weather</a></li>
-                        <li class="greatusa"><a hef="javascript:void(0);">The great USA</a></li> <li class="mail"><a hef="javascript:void(0);" class="active">Mail</a></li>
-                        <li class="stiri"><a hef="javascript:void(0);">Stiri</a></li>
-                        <li class="sport"><a hef="javascript:void(0);">Sport</a></li>
-                        <li class="finante"><a hef="javascript:void(0);">Finante</a></li>
-                        <li class="lifestyle"><a hef="javascript:void(0);">Lifestyle</a></li>
-                        <li class="tech"><a hef="javascript:void(0);">Tech</a></li>
-                        <li class="omg"><a hef="javascript:void(0);">omg!</a></li>
-                        <li class="games"><a hef="javascript:void(0);">Games</a></li>
-                        <li class="groups"><a hef="javascript:void(0);">Groups</a></li>
-                        <li class="mess"><a hef="javascript:void(0);">Messenger</a></li>
-                        <li class="weather"><a hef="javascript:void(0);">Weather</a></li>
-                        <li class="greatusa"><a hef="javascript:void(0);">The great USA</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-
-        <div class="center-col">
-            text
-        </div>
-
-        <div class="right-col">
-            <div class="registration-box">
-                <div class="registration">
-                    <a hef="javascript:void(0);">Înregistrare</a>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-2.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                6%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-3.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                22%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-4.png');">
+                        <div class="percent-box">
+                            <div class="percent">
+                                3%
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="login-box">
-                <div class="login-text">Login</div>
-                <form>
-                    <div>
-                        <input type="text" name="Username" placeholder="Adresa email" class="login-input">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-1.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                12%
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <input type="password" name="password" placeholder="Parolă" class="login-input">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-2.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                6%
+                            </div>
+                        </div>
                     </div>
-                    <div class="login-button">
-                        <input type="submit" value="Login" class="login-submit">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-3.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                22%
+                            </div>
+                        </div>
                     </div>
-                </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-4.png')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                3%
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-1.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                12%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-2.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                6%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-3.jpg')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                22%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="item" style="background-image: url('images/item-logo-4.png')">
+                        <div class="percent-box">
+                            <div class="percent">
+                                3%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-col">
+        <div class="registration-box">
+            <div class="registration">
+                <a href="javascript:void(0);">Înregistrare</a>
+            </div>
+        </div>
+        <div class="login-box">
+            <div class="login-text">Login</div>
+            <form>
+                <div>
+                    <input type="text" name="Username" placeholder="Adresa email" class="login-input">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Parolă" class="login-input">
+                </div>
+                <div class="login-button">
+                    <input type="submit" value="GO" class="login-submit">
+                </div>
+            </form>
         </div>
     </div>
 </body>
